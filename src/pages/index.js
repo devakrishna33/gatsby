@@ -1,11 +1,12 @@
 import React from "react"
+import Layout from '../components/layout'
 
-export default class gatsby extends React.Component{
-    render(){
-        return (
-        <div>
-            <h1>Hello World!</h1>
-        </div>
-        )
-    }
-}
+export default () => (
+  <Layout>
+    <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
+    <p>
+      What do I like to do? Lots of course but definitely enjoy building
+      websites.
+    </p>
+  </Layout>
+)
